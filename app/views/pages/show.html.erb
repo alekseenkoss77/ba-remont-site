@@ -1,0 +1,10 @@
+<div class="text_box">
+  <%#= request.subdomain %>
+  <% @page.each do |page| %>
+    <%= meta_description page.meta_description %>
+    <%= meta_keywords page.meta_keywords %>
+    <%= title page.title %>
+
+	<%= page.content.to_s.html_safe %>
+  <% end %>
+</div>

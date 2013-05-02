@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/ba-remont.ru/webstat"
+AuthUserFile /var/www/maslennikov/data/etc/6947237.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

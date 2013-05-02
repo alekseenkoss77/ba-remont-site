@@ -1,0 +1,190 @@
+.droplinetabs{
+overflow: hidden;
+}
+
+.droplinetabs ul{
+font:Arial;
+font-size:13px;
+margin: 0;
+padding: 0;
+width: 100%;
+list-style: none;
+}
+
+.droplinetabs li{
+/*display: inline;*/
+margin: 0 2px 0 0;
+padding: 0;
+}
+
+
+.droplinetabs a{
+float: left;
+color: white;
+background: #44a7e9 url(leftedge.gif) no-repeat left top; /*default background color of tabs, left corner image*/
+margin: 0 4px 0 0;
+padding: 0 0 4px 3px;
+text-decoration: none;
+letter-spacing: 1px;
+
+}
+
+.droplinetabs a:link, .droplinetabs a::visited, .droplinetabs a:active{
+color: white;
+}
+
+.droplinetabs a span{
+float: left;
+display: block;
+background: transparent url(rightedge.gif) no-repeat right top; /*right corner image*/
+padding: 7px 9px 3px 6px;
+cursor: pointer;
+}
+
+.droplinetabs a span{
+float: none;
+}
+
+
+.droplinetabs a:hover{
+background-color: #098fe8; /*background color of tabs onMouseover*/
+color: white;
+}
+
+.droplinetabs a:hover span{
+background-color: transparent;
+}
+
+/* Sub level menus*/
+.droplinetabs ul li ul{
+position: absolute;
+z-index: 100;
+left: 0;
+top: 0;
+opacity:0.9;
+background: #098fe8; /*sub menu background color */
+visibility: hidden;
+}
+
+/* Sub level menu links style */
+.droplinetabs ul li ul li a{
+font: normal 13px Verdana;
+padding: 6px;
+padding-right: 8px;
+margin: 0;
+background: #098fe8; /*sub menu background color */
+}
+
+.droplinetabs ul li ul li a span{
+background: #098fe8; /*sub menu background color */
+}
+
+.droplinetabs ul li ul li a:hover{ /*sub menu links' background color onMouseover. Add rounded edges in capable browsers */
+background: #0279c8;
+-webkit-border-radius: 5px;  
+-moz-border-radius: 5px; 
+-khtml-border-radius: 5px;  
+border-radius: 5px;
+}
+
+
+
+
+
+
+.droplinetabs1{
+overflow: hidden;
+float:right;
+}
+
+.droplinetabs1 ul{
+font:Arial;
+font-size:13px;
+margin: 0;
+padding: 0;
+width: 100%;
+list-style: none;
+}
+
+.droplinetabs1 li{
+display: inline;
+margin: 0 2px 0 0;
+padding: 0;
+}
+
+
+.droplinetabs1 a{
+float: left;
+color: white;
+background:  url(leftedge.gif) no-repeat left top; /*default background color of tabs, left corner image*/
+margin: 0 4px 0 0;
+padding: 0 0 4px 3px;
+text-decoration: none;
+letter-spacing: 1px;
+
+}
+
+.droplinetabs1 a:link, .droplinetabs1 a::visited, .droplinetabs1 a:active{
+color: white;
+}
+
+.droplinetabs1 a span{
+float: left;
+display: block;
+background: transparent url(rightedge.gif) no-repeat right top; /*right corner image*/
+padding: 7px 9px 3px 6px;
+cursor: pointer;
+}
+
+.droplinetabs1 a span{
+float: none;
+}
+
+
+.droplinetabs1 a:hover{
+color: white;
+}
+
+.droplinetabs1 a:hover span{
+}
+
+/* Sub level menus*/
+.droplinetabs1 ul li ul{
+position: absolute;
+z-index: 100;
+left: 0;
+top: 0;
+opacity:0.9;
+visibility: hidden;
+background:#333
+}
+.droplinetabs1 ul li ul li{
+display:block;
+width:89%;
+font: normal 13px Verdana;
+padding: 6px;
+padding-right: 8px;
+margin: 0;
+margin-top: 16px;
+}
+/* Sub level menu links style */
+.droplinetabs1 ul li ul li a{
+font: normal 13px Verdana;
+padding: 6px;
+padding-right: 8px;
+margin: 0;
+text-align: left;
+}
+
+.droplinetabs1 ul li ul li a span{
+}
+
+.droplinetabs1 ul li ul li a:hover{ /*sub menu links' background color onMouseover. Add rounded edges in capable browsers */
+background: #0279c8;
+width:89%;
+text-align:left;
+-webkit-border-radius: 5px;  
+-moz-border-radius: 5px; 
+-khtml-border-radius: 5px;  
+border-radius: 5px;
+}

@@ -1,0 +1,56 @@
+<div style="width:550px;">
+<h1>Отправить заявку</h1>
+
+<%= form_for :vacancy, :url => {:controller => :vacancies, :action => :create, :subdomain => request.subdomain} do |f| %>
+    <% if @vacancy.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@vacancy.errors.count, "error") %> prohibited this vacancy from being saved:</h2>
+          <ul>
+            <% @vacancy.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+
+    <% end %>
+    <p>
+      <%= f.label :speciality, "Специальность" %>  <br>
+      <%= f.select :speciality, ['Менеджер офиса', 'Менеджер продаж', 'Расклейщик', 'Плиточник', 'Слесарь-сантехник']  %>
+    </p>
+    <p>
+      <%= f.label :fio, "Ф.И.О" %><br>
+      <%= f.text_field :fio %>
+    </p>
+    <p>
+      <%= f.label :telephone, "Контактный телефон" %><br>
+      <%= f.text_field :telephone %>
+    </p>
+    <p>
+      <%= f.label :stage, "Страж работы" %><br>
+      <%= f.text_field :stage %>
+    </p>
+    <p>
+      <%= f.label :inventory, "Наличие инвенторя" %><br>
+      <%= f.text_field :inventory %>
+    </p>
+    <p>
+      <%= f.label :car, "Наличие автомобиля" %><br>
+      <%= f.text_field :car %>
+    </p>
+    <p>
+      <%= f.label :study, "Образование" %><br>
+      <%= f.text_field :study %>
+    </p>
+    <p>
+      <%= f.label :old, "Возраст" %><br>
+      <%= f.text_field :old %>
+    </p>
+    <p>
+      <%= f.label :comment, "Комментарий" %><br>
+      <%= f.text_area :comment %>
+    </p>
+    <div class="actions">
+      <%= f.submit "Отправить вакансии" %>
+    </div>
+<% end %>
+</div>

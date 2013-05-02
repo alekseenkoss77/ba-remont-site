@@ -1,0 +1,13 @@
+class CreateOrders < ActiveRecord::Migration
+  def change
+    create_table :orders do |t|
+      t.string :name
+      t.integer :city_id
+      t.string :email
+      t.string :title
+      t.text :content
+
+      t.timestamps
+    end
+  end
+end

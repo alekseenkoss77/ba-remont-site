@@ -1,0 +1,2 @@
+module Show::PagesHelper
+end

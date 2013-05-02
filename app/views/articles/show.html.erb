@@ -1,0 +1,9 @@
+
+<% @article.each do |art| %>
+    <%= meta_description art.meta_description %>
+    <%= meta_keywords art.meta_keywords %>
+    <%= title art.title %>
+<div class="text_box">
+ <%= art.content.to_s.html_safe %>
+</div>
+<% end %>

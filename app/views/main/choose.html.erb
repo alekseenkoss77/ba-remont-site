@@ -1,0 +1,71 @@
+<%= title("Бизнес-Альянс - Установка водосчетчиков, счетчиков воды в Томске") %>
+<%= meta_keywords "" %>
+<%= meta_description "" %>
+<div id="dialog">
+  <%= image_tag "wnd1.png" %>
+  <h1>Добро пожаловать на сайт компании Бизнес Альянс!</h1>
+
+  <div class="select-city">
+  <%= form_tag("/choose_town", :method => :post) do %>
+        <label>
+          Выберите в списке интересующий Вас регион.
+        </label>
+      <%= collection_select(:city, :city_id, @cities, :subdomain, :name, :class=> "select_windows") %>
+      <p>
+        В дальнейшем Вы всегда можете изменить выбранный регион в верхней части сайта.
+      </p>
+      <div class="button_more">
+        <%= submit_tag "" %>
+      </div>
+
+      <% end %>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function(){
+    $('#dialog').dialog({
+          height    : 320,
+          width     : 600,
+          draggable : false,
+          modal     : true
+      });
+  });
+</script>
+
+<style>
+    .select-city {
+        position: absolute;
+        margin: 30px 0 0 205px;
+    }
+    #dialog h1 {
+        margin: -70px 0 0 212px;
+
+        width: 300px;
+        color: rgb(92, 92, 92);
+        font-size: 24px;
+        font-weight: normal;
+    }
+    #dialog label {
+        margin: 50px 0 10px 0px;
+        width: 300px;
+    }
+    #dialog p {
+        margin: 15px 0 0 0px;
+        width: 300px;
+    }
+    .button_more  input{
+        position: absolute;
+        margin: 20px 0 0 175px;
+        background: url(/assets/next.jpg);
+        width: 90px;
+        height: 22px;
+        border: none;
+        cursor: pointer;
+
+    }
+    #city_city_id {
+        width: 250px;
+
+    }
+</style>

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" >
+
+<!-- Mirrored from ba-remont.ru/tsk/index.php by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 10 Oct 2012 19:03:32 GMT -->
+<head>
+
+  <meta name="robots" content="index, follow"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1251" />
+  <meta name="description" content="<%= yield :meta_description %>">
+  <meta name="keywords" content="<%= yield :meta_keywords %>">
+
+  <title><%= yield :title %></title>
+  <%= javascript_include_tag "application" %>
+  <%= stylesheet_link_tag "application" %>
+  <!-- Стили для всех версий IE -->
+  <!--[if IE]>
+  <link rel="stylesheet" type="text/css" href="/assets/style-ie.css" />
+  <![endif]-->
+
+  <script type="text/javascript">
+      //build menu with DIV ID="myslidemenu" on page:
+      droplinemenu.buildmenu("droplinetabs1");
+  </script>
+  <script type="text/javascript">
+      //build menu with DIV ID="myslidemenu" on page:
+      droplinemenu.buildmenu("droplinetabs2");
+  </script>
+
+  <script>
+      $(document).ready(function(){
+          //Examples of how to assign the ColorBox event to elements
+          $("a[rel='example1']").colorbox();
+          $("a[rel='example2']").colorbox({transition:"fade"});
+          $("a[rel='example3']").colorbox({transition:"none", width:"75%", height:"75%"});
+          $("a[rel='example4']").colorbox({slideshow:true});
+          $(".example5").colorbox();
+          $(".example6").colorbox({iframe:true, innerWidth:425, innerHeight:344});
+          $(".example7").colorbox({width:"80%", height:"80%", iframe:true});
+          $(".example8").colorbox({width:"50%", inline:true, href:"#inline_example1"});
+          $(".example9").colorbox({
+              onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+              onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+              onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+              onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+              onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+          });
+
+          //Example of preserving a JavaScript event for inline calls.
+          $("#click").click(function(){
+              $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+              return false;
+          });
+      });
+  </script>
+</head>
+<body style="margin: 0" link="#FFFFFF" vlink="#FFFFFF">
+<div class="mainbg">
+<div class="wmain" align="center">
+<div class="head">
+  <div class="headm" id="headm">
+    <div class="top">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="35%"></td>
+          <td width="30%"></td>
+          <td width="35%" align="right">
+            <div align="right" style="color:#fff">
+              <div id="droplinetabs2" class="droplinetabs1">
+                <ul>
+                  <li><a href="catalog.html"><span><i>Выбор города</i>
+                  </span></a>
+                    <ul>
+                      <%= city_choose %>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+            </div></td>
+        </tr>
+      </table>
+    </div>
+    <div class="headc">
+      <table class="head_m" style="margin:0; padding:0" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="58px"></td>
+        </tr>
+        <tr>
+          <td height="20px"><div class=module>
+            <style type="text/css">
+                .table1 { letter-spacing:8px; font-size:20px; }
+                .table2 { letter-spacing:10px; }
+            </style>
+            <table class='table' border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="20px" width="32px"></td>
+                <td width="22px"><font size=5.5 color="#d7aeb2">2</font></td>
+                <td width="24px"><font size=5.5 color="#d88da1">0</font></td>
+                <td width="22px"><font size=5.5 color="#be454e">1</font></td>
+                <td width="27px"><font size=5.5 color="#be454e">2</font></td>
+                <td width="51px" class="table1"><font size=5.5 color="#333333">10</font></td>
+                <td width="46px" class="table2" ><font size=5.5 color="#878787">11</font></td>
+              </tr>
+            </table>
+          </div></td>
+        </tr>
+        <tr>
+          <td height="12px"></td>
+        </tr>
+        <tr>
+          <td><table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td height="80px" width="128px"></td>
+              <td width="30px" valign="bottom"></td>
+              <td width="10px"></td>
+              <td>
+              </td>
+            </tr>
+          </table></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+<div class="main">
+<table width="960px" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto;">
+<tr>
+  <td></td>
+</tr>
+<tr>
+<td>
+<table width="100%" style="opacity:0.9" border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td class="tl"></td>
+  <td class="tm"></td>
+  <td class="tr"></td>
+</tr>
+<tr>
+<td class="l"></td>
+<td class="m"><table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto;">
+  <tr>
+    <td valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+
+        <td  valign="top" background="bg_lmenu.gif" class="bgry">
+          <center><%= link_to "Сделать заказ онлайн", {:controller => :orders, :action => :new, :subdomain => request.subdomain}, :class=>"order dinamic" %><br />
+            <a href="/orders/new" style="text-decoration:underline; color:#000;">Вопрос специалисту</a><br /><br />
+            <%= show_phones(request.subdomain) %>
+            <!--<span style="color:#000000; font-size:21px;"><%= image_tag 'icopho.gif' %> <%#= show_phone %></span><br />-->
+          </center>
+           <!--<h1><%#= current_city %></h1>-->
+          <div class='news'>
+            <br /><div class="promo">
+            <div class="catalog">
+              <strong class="title"><%= link_to "Каталог", :articles %></strong>
+              <%= view_catalog_helper %>
+              <a class="red" href="http://vodomers.ru">водосчетчики оптом</a>
+              <ul class="links">
+                <%= sidebar %>
+                <!--<li><a href="price.xls">Скачать прайс-лист</a></li>-->
+                <!--<li><a href="index68ba.html?id=100019">Реквизиты</a></li>-->
+                <!--<li><a href="/new_complaint">Книга жалоб и предложений</a></li>-->
+              </ul>
+            </div>
+
+          </div>
+
+          </div>
+          <div class="news111">
+            <div class="head png_ie">
+              <%= link_to "Все новости", url_for(
+                      :controller => :tidings,
+                      :action => :index,
+                      :subdomain => request.subdomain
+              ) %>
+              <strong style="float:left">Новости</strong>
+            </div>
+            <div class="holder">
+              <ul>
+                <%# show last news(4 elements) %>
+                <%= view_last_news_helper %>
+              </ul>
+            </div>			<div class="b">&nbsp;</div>
+          </div>
+        </td>
+
+        <td valign="top" style="padding:3px;" class="component"><center>
+          <table class='control'>
+            <tr> </tr>
+          </table>
+        </center>
+          <div>
+            <table height="500">
+              <tr>
+                <td valign="top">
+                  <div id="droplinetabs1" class="droplinetabs">
+
+					<ul>
+                       <%= show_menu :main %>
+                      <li><%= link_to "<span><i>Портфолио</i></span>".html_safe ,
+                            :controller => :galleries,
+                            :action => :show,
+                            :subdomain => request.subdomain
+                      %></li>
+                      <li><a href="/news"><span><i>Новости</i></span></a></li>
+                      <li><%= link_to "<span><i>Вакансии</i></span>".html_safe, :controller => :vacancies, :action => :new %></li>
+                      <!--<li><a href="<%#=  %>"><span><i>Франшиза</i></span></a></li>-->
+                      <!--<li><a href="news.html"><span><i>Новости</i></span></a></li>-->
+                      <!--<li><a href="contakt.html?id=2"><span><i>Контакты</i></span></a></li>-->
+                      <!--<li><a href="gallery.html"><span><i>Портфолио</i></span></a>--> </li>
+                      <!--<li><a href="vacancy.html"><span><i>Вакансии</i></span></a></li>-->
+                    </ul>
+                  </div>
+
+                  <br />
+                  <br />
+                  <div class="main-content">
+                    <%#= session[:city] %>
+					<%if flash[:notice]%>
+						<div class="notice"><%= flash[:notice] %></div>
+					<%end%>
+					<%if flash[:error]%>
+						<div class="error"><%= flash[:error] %></div>
+					<%end%>
+                    <%= yield :layout %>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+          </center>
+          <br>
+          <center>
+            <p align=right> <br>
+              <br>
+            </p>
+          </center></td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+    </table></td>
+
+  </tr>
+</table>
+
+
+<table width="100%">
+  <tr>
+    <td colspan="3" valign="top">
+      <!--<div class="gallery"> <a href="#" class="prev png_ie">prev</a>
+        <div>
+          <ul>
+            <li> <a> <span class="disable"><%= image_tag "254d1c64.png" , :width=>"112"%></span>  </a> </li>
+            <li> <a> <span class="disable"><%= image_tag "knauf.jpg" , :width => "112" %></span> </a> </li>
+            <li> <a> <span class="disable"><%= image_tag "ceresit.jpg", :width =>"112"%></span></a> </li>
+            <li> <a href="#" title="Lowara"> <span class="disable"><%= image_tag "dc7caaab.png" , :width=>"142",  :height=>"28", :title=>"Lowara" %></span> <span class="active"> <span class="visual"><img src="../upload/resize_cache/iblock/0aa/140_158_1/0aa7478b13c92d6d776bf6ecab62f7d8.html" width="103" height="158" /></span> <span class="info">Насосы</span> </span> </a> </li>
+            <li> <a href="#" title="Zilmet"> <span class="disable"><%= image_tag "84a4f1ee.png", :width=>"89", :height=>"51", :alt=>"Zilmet" ,:title=>"Zilmet" %></span> <span class="active"> <span class="visual"><img src="../upload/resize_cache/iblock/c76/140_158_1/c7640df9b3ca8919780159250197215e.html" width="131" height="158" /></span> <span class="info">Гидробаки</span> </span> </a> </li>
+            <li> <a href="#" title="Ebara"> <span class="disable"><%= image_tag "022d6210.png", :width=>"51", :height=>"54", :alt=>"Ebara" , :title=>"Ebara" %></span> <span class="active"> <span class="visual"><img src="../upload/resize_cache/iblock/492/140_158_1/49297bfc6286b849e5d5a63d12014297.html" width="140" height="122" /></span> <span class="info">Насосы</span> </span> </a> </li>
+            <li> <a href="#" title="Broen"> <span class="disable"><%= image_tag "a6090784.png" , :width=>"118", :height=>"51", :alt=>"Broen" , :title=>"Broen" %></span> <span class="active"> <span class="visual"><img src="../upload/resize_cache/iblock/819/140_158_1/8199a9445bb1395042b24dfb6ba6ac96.html" width="137" height="158" /></span> <span class="info">Теплоснабжение</span> </span> </a> </li>
+            <li> <a href="#" title="Reflex"> <span class="disable"><%= image_tag "99ad916c.png", :width=>"142", :height=>"44", :alt=>"Reflex" , :title=>"Reflex" %></span> <span class="active"> <span class="visual"><img src="../upload/resize_cache/iblock/2a2/140_158_1/2a299687fb2c1b1f2da3065801fd7795.html" width="132" height="158" /></span> <span class="info">Мембранные баки</span> </span> </a> </li>
+            <li> <a href="#" title="Speroni"> <span class="disable"><%= image_tag "50d87373.png", :width=>"142", :height=>"43" , :alt=>"Speroni", :title=>"Speroni" %></span> <span class="active"> <span class="visual"><img src="../upload/resize_cache/iblock/18f/140_158_1/18f2726f0e7df617acce55d4ad992178.html" width="107" height="158" /></span> <span class="info">Насосы</span> </span> </a> </li>
+            <li> <a href="#" title="Homa"> <span class="disable"><%= image_tag "e4ee7858.png", :width=>"122" , :height=>"51", :alt=>"Homa" , :title=>"Homa" %></span> <span class="active"> <span class="visual"><img src="../upload/resize_cache/iblock/70c/140_158_1/70c4fa9e1ceb9256b9c16c8e49d4ebbb.html" width="140" height="126" /></span> <span class="info">Канализационные насосы</span> </span> </a> </li>
+            <li> <a href="#" title="C.E.M.E."> <span class="disable"><%= image_tag "64bb98fc.png", :width=>"142" , :height=>"50", :alt=>"C.E.M.E.", :title=>"C.E.M.E." %></span> <span class="active"> <span class="visual"><img src="../upload/resize_cache/iblock/77a/140_158_1/77acafb8a940da3ea27104da07b46f2e.html" width="140" height="128" /></span> <span class="info">Электромагнитные клапаны</span> </span> </a> </li>
+            <li> <a href="#" title="Genebre"> <span class="disable"><%= image_tag "242dd017.png" , :width=>"142" ,:height=>"26" , :alt=>"Genebre", :title=>"Genebre" %></span> <span class="active"> <span class="visual"><img src="../upload/resize_cache/iblock/895/140_158_1/8952725af6ccad4f637ce010b1aedb90.html" width="140" height="135" /></span> <span class="info">Шаровые краны и запорная арматура</span> </span> </a> </li>
+            <li> <a href="#" title="Maniero Elettronica"> <span class="disable"><%= image_tag "57a209f7.png", :width=>"142", :height=>"50", :alt=>"Maniero Elettronica", :title=>"Maniero Elettronica" %></span> <span class="active"> <span class="visual"><img src="../upload/resize_cache/iblock/59e/140_158_1/59e3dd7724336790211851e5fbecd665.html" width="140" height="112" /></span> <span class="info">Пускозащитные устройства</span> </span> </a> </li>
+            <li> <a href="#" title="Unidelta"> <span class="disable"><%= image_tag "fd6f3066.png", :width=>"142", :height=>"35", :alt=>"Unidelta", :title=>"Unidelta" %></span> <span class="active"> <span class="visual"><img src="../upload/resize_cache/iblock/979/140_158_1/979a1bae513bc652abbaa2d006ed59de.html" width="140" height="114" /></span> <span class="info">Пластиковые трубы и арматура</span> </span> </a> </li>
+            <li> <a href="#" title="Sumoto"> <span class="disable"><%= image_tag "9459d78c.png" ,:width=>"142" ,:height=>"50" ,:alt=>"Sumoto" ,:title=>"Sumoto" %></span> <span class="active"> <span class="visual"><img src="../upload/resize_cache/iblock/f89/140_158_1/f89cdac46830df3a5276ac078f88eb21.html" width="134" height="158" /></span> <span class="info">Двигатели для насосов</span> </span> </a> </li>
+          </ul>
+        </div>
+        <a href="#" class="next png_ie">next</a> <a href="#" class="more">Все производители</a> </div>
+      <script type="text/javascript">
+          $(document).ready(function() {
+              $("a[rel='fbox']").fancybox({
+                  'titlePosition': 'inside'
+              });
+          });
+      </script>-->
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" valign="top">
+      <div class="details">
+
+        <div class="post">     <strong class="title"><span>1</span> Широкий
+          <br />
+          спектр услуг</strong>
+          <div>Комплексные поставки и подбор оборудования для водоснабжения, отопления, канализации и водоподготовке, услуги по монтажу и сервисному обслуживанию
+            <br />
+          </div>
+        </div>
+
+        <div class="post">     <strong class="title"><span>2</span> Свобода
+          <br />
+          выбора</strong>
+          <div>Широкий ассортимент продукции ведущих производителей дает нашим покупателям большую свободу выбора для решения задач любой сложности
+            <br />
+          </div>
+        </div>
+
+        <div class="post">     <strong class="title"><span>3</span> Низкая
+          <br />
+          стоимость</strong>
+          <div>В результате грамотно построенной маркетинго-
+            <br />
+            вой политики, цены на предлагаемое нами оборудование существенно ниже, чем у большинства торговых компаний
+            <br />
+          </div>
+        </div>
+
+        <div class="post">     <strong class="title"><span>4</span> Гарантии и
+          <br />
+          сертификация</strong>
+          <div>Предлагаемое оборудование имеет все необходимые сертификаты качества, длительный срок эксплуатации, гарантийное сервисное обслуживание
+            <br />
+          </div>
+        </div>
+
+        <div class="post">     <strong class="title"><span>5</span> Опыт и
+          <br />
+          квалификация</strong>
+          <div>Квалифицированные специалисты, регулярные стажировки на заводах производителей, работа  с оборудованием любого уровня сложности, более 16 лет на рынке
+            <br />
+          </div>
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3"> <hr style="border:none; background-color:#3f597a; height:1px;" /></td>
+  </tr>
+  <tr>
+    <td width="200" align="left" valign="top">
+      <!--<p>Электронная почта<br />ba-tsk@yandex.ru</p>-->
+    </td>
+    <td width="80%" align="right" valign="top">
+      <p>Разработано <a href="http://forward70.ru">Forward Group</a></p>
+      <p>Мы делаем больше, чем Вы ожидаете</p>
+    </td>
+    <td></td>
+  </tr>
+</table>
+
+</td>
+<td class="r"></td>
+</tr>
+
+
+</td>
+
+</tr>
+
+
+</table>
+
+</div>
+</div>
+</div>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter21061987 = new Ya.Metrika({id:21061987,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/21061987" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+</body>
+
+<!-- Mirrored from ba-remont.ru/tsk/index.php by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 10 Oct 2012 19:04:13 GMT -->
+</html>

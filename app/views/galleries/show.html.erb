@@ -1,0 +1,16 @@
+<script>
+  $(document).ready(function(){$('#thumbs a').touchTouch();});
+
+</script>
+<%= meta_description "" %>
+<%= meta_keywords "" %>
+<%= title "Потрфолио Бизнес - Альянс" %>
+<div id="thumbs">
+<% @galleries.each do |gallery| %>
+
+    <h3><%= h gallery.name %></h3>
+        <% gallery.imgs.each do |image| %>
+              <%= link_to "", image.img.url(:bigest), {:style => "background: url(#{image.img.url(:small)});", :title => image.alt }%>
+        <% end %>
+<% end %>
+</div>

@@ -1,0 +1,29 @@
+<%= meta_description @news.meta_description %>
+<%= meta_keywords @news.meta_keywords %>
+<%= title @news.title %>
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @news.title %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @news.name %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%= @news.content %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @news.city_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_news_path(@news) %> |
+<%= link_to 'Back', news_path %>

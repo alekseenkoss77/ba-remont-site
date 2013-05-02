@@ -1,0 +1,11 @@
+<div style="width:550px; text-align:left; color: black;">
+
+  <% @tiding.each do |tiding| %>
+    <h3 class="news_header"><%=  tiding.name %></h3>
+    <p>
+      <%= h tiding.preview_text %>
+    </p>
+    <%= link_to "Читать полностью", url_for(:controller => :tidings, :action => :show, :id => tiding.id) %>
+    <hr/>
+  <% end %>
+</div>

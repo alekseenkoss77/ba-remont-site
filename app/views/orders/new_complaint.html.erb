@@ -1,0 +1,40 @@
+﻿<h1>Отправить жалобу или предложение</h1>
+
+<%= form_for(:order, :url => {:controller => :orders, :action => :create_complaint}) do |f| %>
+  
+  <% if @order.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@order.errors.count, "error") %> обнаружены перед отправлением!</h2>
+
+      <ul>
+      <% @order.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+	
+  <div class="field">
+    <%= f.label :name, "Имя(обязательно)" %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :email, "E-mail(обязательно)" %><br />
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :phone, "Телефон(обязательно)" %><br />
+    <%= f.text_field :phone %>
+  </div>
+  <div class="field">
+    <%= f.label :title, "Тема заявки" %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :content , "Содержание" %><br />
+    <%= f.text_area :content %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Отправить" %>
+  </div>
+<% end %>

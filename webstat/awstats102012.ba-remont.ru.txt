@@ -1,0 +1,751 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201210 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.ba-remont.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1958                
+POS_TIME 2649                
+POS_VISITOR 3576                
+POS_DAY 4312                
+POS_DOMAIN 4467                
+POS_LOGIN 4700                
+POS_ROBOT 4855                
+POS_WORMS 5321                
+POS_EMAILSENDER 5452                
+POS_EMAILRECEIVER 5595                
+POS_SESSION 5671                
+POS_SIDER 5855                
+POS_FILETYPES 7238                
+POS_OS 7474                
+POS_BROWSER 7559                
+POS_SCREENSIZE 7835                
+POS_UNKNOWNREFERER 7909                
+POS_UNKNOWNREFERERBROWSER 7996                
+POS_ORIGIN 8078                
+POS_SEREFERRALS 8222                
+POS_PAGEREFS 8377                
+POS_SEARCHWORDS 12793               
+POS_KEYWORDS 13345               
+POS_MISC 2312                
+POS_ERRORS 13740               
+POS_CLUSTER 4556                
+POS_SIDER_404 13899               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20121024190005 23063 5444748 16488476340311
+FirstTime 20121024004038
+LastTime 20121024190004
+LastUpdate 20121025000253 23063 0 23063 0 0
+TotalVisits 20                  
+TotalUnique 15                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 15                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 65 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 35547 38 40 195347
+1 1 1 23117 47 54 197007
+2 0 0 0 50 59 254356
+3 1 1 23117 40 48 156464
+4 0 0 0 36 52 140384
+5 0 0 0 38 61 129098
+6 0 0 0 46 64 235214
+7 2 56 1254227 50 69 128934
+8 7 68 1105105 188 303 762585
+9 3 125 38849 76 124 333758
+10 0 0 0 29 33 384592
+11 54 1992 19487968 838 1895 1682560
+12 59 2110 14056659 637 1512 1340067
+13 103 3022 12708065 1150 2526 2249284
+14 11 486 99974 162 339 302123
+15 17 443 2075947 66 192 183057
+16 5 133 1079152 29 72 62640
+17 56 1336 12220239 231 564 1570349
+18 94 3370 32629536 820 1847 1634387
+19 1 25 0 17 38 33416
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 15
+46.161.160.133 342 11440 80252691 20121024190004 20121024170811 /page/main
+109.124.57.5 47 1208 9588240 20121024185825 20121024185825 /
+78.140.19.30 5 66 1058871 20121024084409
+95.191.5.240 4 65 1059674 20121024113157
+77.72.242.40 3 154 1077655 20121024155500
+109.174.112.14 2 56 1254227 20121024071006
+217.118.91.49 2 2 799 20121024111014
+95.131.6.140 2 77 1199889 20121024112243
+217.116.153.173 2 95 1194324 20121024113033
+89.169.13.227 2 2 12430 20121024005757
+198.143.175.106 1 1 23117 20121024010106
+93.182.136.140 1 1 23117 20121024030046
+93.182.134.182 2 2 46234 20121024082746
+91.237.249.174 1 1 23117 20121024092029
+93.182.159.3 1 1 23117 20121024004153
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20121024 417 13171 96837502 20
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 417 13171 96837502
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+googlebot 180 1782130 20121024121050 21
+mail\.ru 32 15424 20121024085107 32
+yandex 13 7423 20121024111050 12
+crawl 7 162029 20121024060704 0
+bot[\s_+:,\.\;\/\\-] 5 13981 20121024120626 3
+no_user_agent 4 92513 20121024061341 0
+[\s_+:,\.\;\/\\-]bot 3 1467 20121024100300 3
+unknown 3 1407 20121024012614 3
+robot 3 18464 20121024011312 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+1h+ 2
+30s-2mn 3
+15mn-30mn 2
+0s-30s 9
+2mn-5mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 40
+/page/main 140 670433 4 4
+/ 116 311633 15 10
+/admin/page 40 138158 1 0
+/ckeditor_assets/attachments/22/omsk.flv 11 5142419 0 0
+/ckeditor/pictures 10 10550 0 1
+/users/sign_in 10 73939 0 0
+/admin/page/13/edit 9 53823 0 0
+/ckeditor/attachment_files 8 8775 0 0
+/ckeditor_assets/attachments/25/omsk.swf 8 15527112 0 0
+/admin/page/10/edit 6 38043 0 0
+/article/index68ba.html 1 6674 0 0
+/admin/page/35/edit 1 3355 0 0
+/ckeditor_assets/attachments/24/menu_logo_garderoby.swf 3 4862 0 0
+/vacancies/new 5 29821 0 0
+/admin/vacancy 3 13236 0 0
+/admin/page/33/edit 1 4193 0 0
+/articles 1 135879 0 1
+/article/gbook.html 2 6674 0 0
+/admin/city 1 4215 0 0
+/news 1 7017 0 0
+/galleries/show 2 14900 0 1
+/admin/page/11/edit 1 6347 0 0
+/article/alldom 1 8789 0 0
+/page/contacts 1 6715 0 0
+/pages/show 1 6215 0 0
+/choose 1 1438 0 0
+/admin/page/1/edit 1 4563 0 0
+/article/kanalizacia 2 15604 0 0
+/article/otoplenie 1 8097 0 0
+/admin/page/8/edit 2 6699 0 0
+/article/ystanovka 4 25185 0 0
+/page/order.html 2 12905 0 0
+/admin/page/27/edit 1 4974 0 0
+/ckeditor_assets/attachments/23/omsk.flv 4 2454948 0 0
+/page/demomovie.swf 2 13348 0 0
+/page/catalog.html 5 26264 0 1
+/admin/page/18/edit 1 5001 0 0
+/admin/page/12/edit 1 4700 0 0
+/admin/vacancy/bulk_action 1 3312 0 0
+/admin/ 6 24497 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 1942 1186938 0 0
+png 3375 7516553 0 0
+swf 13 15545322 0 0
+flv 15 7597367 0 0
+html 132 388647 0 0
+js 6287 28489621 0 0
+jpg 686 19759067 0 0
+Unknown 257 1313976 0 0
+gif 464 15040011 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 4
+macosx 1264
+winlong 1
+winxp 367
+win2008 11539
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 13
+msie8.0 131
+firefox13.0.1 1
+firefox17.0 4885
+chrome3.0.195.38 1
+firefox14.0.1 354
+firefox16.0 322
+chrome22.0.1229.94 6065
+firefox8.0 1
+chrome16.0.912.63 154
+chrome18.0.1025.168 928
+opera9.80 81
+safari5.0.2 56
+safari6.0.1 192
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 139 181
+From1 0 0
+From2 3 3
+From3 260 11313
+From4 15 1674
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yandex 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 96
+http://seversk.baremont.ru/page/main 26 1571
+http://www.baremont.ru 25 74
+http://asino.baremont.ru/admin/page/10/edit 21 83
+http://baremont.ru 17 261
+http://omsk.baremont.ru/page/main 14 837
+http://baremont.ru/admin/page 14 186
+http://asino.baremont.ru/admin/page 11 421
+http://asino.baremont.ru/page/main 9 663
+http://baremont.ru/users/sign_in 8 417
+http://spb.baremont.ru/page/main 7 479
+http://tumen.baremont.ru 5 5
+http://asino.baremont.ru/admin/page/13/edit 4 30
+http://baremont.ru/admin/page/13/edit 5 87
+http://spb.baremont.ru/article/alldom 1 65
+http://asino.baremont.ru/ckeditor/attachment_files 0 22
+http://novokyznetsk.baremont.ru/assets/style.css 0 24
+http://mgsg.baremont.ru/article/ystanovka 2 124
+http://tumen.baremont.ru/page/main 6 679
+http://baremont.ru/admin/ 3 134
+http://link.2gis.ru/CA993EDF/grym/20121001/novokuznetsk/3007d00039e22 1 1
+http://aleksfolio.com 0 61
+http://seversk.baremont.ru/vacancies/new 2 100
+http://krai.baremont.ru/article/ystanovka 0 23
+http://omsk.baremont.ru/admin/city 1 1
+http://omsk.baremont.ru/page/catalog.html 1 25
+http://omsk.baremont.ru/admin/page 3 44
+http://baremont.ru/admin/page/12/edit 1 1
+http://nsk.baremont.ru/assets/style.css 0 12
+http://barnaul.baremont.ru/admin/page/33/edit 1 12
+http://baremont.ru/vacancies/new 0 63
+http://tomsk.baremont.ru/assets/style.css 0 24
+http://krai.ba-remont.ru/assets/style.css 0 12
+http://tumen.baremont.ru/assets/style.css 0 36
+http://krai.baremont.ru/page/main 3 151
+http://forum.ba-remont.ru 6 6
+http://krai.ba-remont.ru/page/main 0 49
+http://baremont.ru/admin/page/35/edit 1 15
+http://barnaul.baremont.ru/page/main 1 178
+http://barnaul.baremont.ru/admin/ 1 44
+http://baremont.ru/admin/vacancy 1 87
+http://barnaul.baremont.ru/assets/ckeditor/skins/kama/editor.css 0 2
+http://baremont.ru/admin/page/18/edit 0 9
+http://seversk.baremont.ru/page/catalog.html 1 84
+http://asino.baremont.ru/admin/page/11/edit 3 12
+http://spb.baremont.ru/article/gbook.html 2 128
+http://perm.baremont.ru/page/order.html 0 63
+http://asino.baremont.ru/page/contacts 2 51
+http://mgsg.baremont.ru/page/main 4 448
+http://baremont.ru/assets/rails_admin/imports.css 0 12
+http://perm.baremont.ru/page/main 4 286
+http://spb.baremont.ru/article/kanalizacia 0 42
+http://tomsk.ba-remont.ru/page/main 1 50
+http://tomsk.ba-remont.ru/news 1 33
+http://novokyznetsk.baremont.ru/page/main 0 195
+http://asino.baremont.ru/assets/style.css 0 96
+http://mgsg.baremont.ru/pages/show 0 61
+http://barnaul.baremont.ru/assets/style.css 0 12
+http://mgsg.baremont.ru/article/kanalizacia 1 63
+http://omsk.baremont.ru/users/sign_in 1 64
+http://mgsg.baremont.ru/assets/style.css 0 24
+http://asino.baremont.ru/admin/ 1 46
+http://spb.baremont.ru/assets/style.css 0 24
+http://spb.baremont.ru/page/order.html 1 42
+http://barnaul.baremont.ru/users/sign_in 1 33
+http://omsk.baremont.ru/admin/page/13/edit 2 59
+http://spb.baremont.ru/article/index68ba.html 0 63
+http://krai.baremont.ru/assets/style.css 0 12
+http://asino.baremont.ru/admin/page/1/edit 1 10
+http://omsk.baremont.ru/vacancies/new 0 51
+http://spb.baremont.ru/vacancies/new 1 33
+http://baremont.ru/admin/page/27/edit 1 13
+http://baremont.ru/admin/vacancy/bulk_action 1 44
+http://baremont.ru/galleries/show 1 68
+http://lusva.baremont.ru/assets/style.css 0 12
+http://nsk.baremont.ru/page/main 3 259
+http://spb.baremont.ru/page/catalog.html 0 5
+http://baremont.ru/assets/style.css 0 24
+http://barnaul.baremont.ru/admin/page 7 222
+http://perm.baremont.ru/assets/style.css 0 36
+http://baremont.ru/page/main 0 62
+http://tomsk.ba-remont.ru/assets/style.css 0 12
+http://seversk.baremont.ru/assets/style.css 0 132
+http://omsk.baremont.ru/admin/ 1 46
+http://omsk.baremont.ru/assets/style.css 0 48
+http://www.bis077.ru/catalog/company/id/539685 1 1
+http://asino.baremont.ru/ckeditor/pictures 2 35
+http://www.baremont.ru/assets/style.css 0 12
+http://tomsk.baremont.ru/article/ystanovka 1 33
+http://nsk.baremont.ru/page/catalog.html 0 40
+http://tomsk.baremont.ru/page/main 5 507
+http://lusva.baremont.ru/page/main 3 323
+http://asino.baremont.ru/users/sign_in 1 63
+http://baremont.ru/assets/ckeditor/skins/kama/editor.css 0 4
+http://mgsg.baremont.ru/article/otoplenie 1 63
+http://barnaul.baremont.ru/admin/page/8/edit 4 27
+http://barnaul.baremont.ru/assets/rails_admin/imports.css 0 7
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+%d0%b1%d0%b8%d0%b7%d0%bd%d0%b5%d1%81+%d0%b0%d0%bb%d1%8c%d1%8f%d0%bd%d1%81 1
+%d0%b1%d0%b8%d0%b7%d0%bd%d0%b5%d1%81+%d0%b0%d0%bb%d1%8c%d1%8f%d0%bd%d1%81+%d0%bd%d0%be%d0%b2%d0%be%d1%81%d0%b8%d0%b1%d0%b8%d1%80%d1%81%d0%ba 1
+%d1%84%d0%b8%d1%80%d0%bc%d1%8b+%d0%bf%d0%be+%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b5+%d1%81%d1%87%d0%b5%d1%82%d1%87%d0%b8%d0%ba%d0%be%d0%b2+%d0%b2%d0%be%d0%b4%d1%8b 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 8
+%d0%b1%d0%b8%d0%b7%d0%bd%d0%b5%d1%81 2
+%d0%b0%d0%bb%d1%8c%d1%8f%d0%bd%d1%81 2
+%d0%bd%d0%be%d0%b2%d0%be%d1%81%d0%b8%d0%b1%d0%b8%d1%80%d1%81%d0%ba 1
+%d1%84%d0%b8%d1%80%d0%bc%d1%8b 1
+%d0%bf%d0%be 1
+%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b5 1
+%d1%81%d1%87%d0%b5%d1%82%d1%87%d0%b8%d0%ba%d0%be%d0%b2 1
+%d0%b2%d0%be%d0%b4%d1%8b 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+302 134 126246
+206 9 1090679
+500 267 582300
+400 2 1018
+406 12 7470
+404 9150 8054154
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 328
+/admin.php 2 -
+/puzzles/view/44646 1 -
+/portfolio/100_3830.jpg 1 -
+/sites/default/files/imagecache/FOr_Gallery_big/IMG_3496_0.JPG 1 -
+/css/colorbox.css 64 http://www.baremont.ru/
+/upload/resize_cache/iblock/492/140_158_1/49297bfc6286b849e5d5a63d12014297.html 293 http://tomsk.baremont.ru/page/main
+/images/logo.png 1 -
+/system/imgs/imgs/000/000/028/small/13rwqdd.jpg 2 http://baremont.ru/galleries/show
+/upload/resize_cache/iblock/492/140_158_1/49297bfc6286b849e5d5a63d12014297.png 2 -
+/vacancies/js/jquery.colorbox.js 8 http://baremont.ru/vacancies/new
+/sites/default/files/imagecache/For_Gallery/Nijni_novgorod.JPG 1 -
+/images/demo/hot-news.png 1 -
+/portfolio/100_3802.jpg 1 -
+/sites/default/files/imagecache/For_Gallery/Tunis.jpg 1 -
+/system/imgs/imgs/000/000/014/small/23rgh.jpg 2 http://baremont.ru/galleries/show
+/fancybox/fancy_shadow_sw.html 6 -
+/media/k2/items/cache/9ded0288e863fbe79d863f606cb05c21_Generic.jpg 1 -
+/sites/default/files/imagecache/slide/666.jpg 1 -
+/system/imgs/imgs/000/000/020/small/8.jpg 2 http://baremont.ru/galleries/show
+/puzzles/view/44662 1 -
+/upload/resize_cache/iblock/59e/140_158_1/59e3dd7724336790211851e5fbecd665.html 280 http://tomsk.baremont.ru/page/main
+/index.php/ministries/a-wonderful-time/88 3 -
+/puzzles/view/43661 1 -
+/users/js/main0000.js 13 http://baremont.ru/users/sign_in
+/page/js/gallery.js 172 http://tomsk.baremont.ru/page/main
+/system/imgs/imgs/000/000/030/small/eyyt.jpg 2 http://baremont.ru/galleries/show
+/galleries/js/gallery.js 2 http://baremont.ru/galleries/show
+/index.php/ministries/sports-ministry/497 3 -
+/templates/middle/images/50d87373.png 1 -
+/images/demo/img-position1.png 1 -
+/system/imgs/imgs/000/000/034/small/1345.jpg 2 http://baremont.ru/galleries/show
+/upload/resize_cache/iblock/18f/140_158_1/18f2726f0e7df617acce55d4ad992178.html 287 http://tomsk.baremont.ru/page/main
+/mc.yandex.ru/metrika/watch.js 294 http://tomsk.baremont.ru/page/main
+/vacancies/index68ba.html 1 -
+/tmn/index.php 1 -
+/plagins/fancybox/fancybox-x.html 25 http://tomsk.baremont.ru/page/main
+/upload/resize_cache/iblock/c76/140_158_1/c7640df9b3ca8919780159250197215e.html 293 http://tomsk.baremont.ru/page/main
+/galleries/js/droplinemenu.js 2 http://baremont.ru/galleries/show
+/pages/js/jquery.min.html 1 http://mgsg.baremont.ru/pages/show
+/article/css/colorbox.css 12 http://spb.baremont.ru/article/index68ba.html
+/ckeditor_assets/pictures/16/content_vodomers.jpg 8 http://nsk.baremont.ru/page/main
+/media/k2/items/cache/62fb5f1024529266c6e71c0c0c9ddb3c_Generic.jpg 1 -
+/assets/rightedge.gif 216 http://tomsk.baremont.ru/page/main
+/system/imgs/imgs/000/000/022/small/3.jpg 2 http://baremont.ru/galleries/show
+/puzzles/view/44553 1 -
+/sites/default/files/imagecache/FOr_Gallery_big/LuksorEgipt.jpg 1 -
+/media/k2/items/cache/39a27618f1dc54b80987c6706135e6b7_Generic.jpg 1 -
+/pages/js/main0000.js 1 http://mgsg.baremont.ru/pages/show
+/index.php/ministries/service-order/84 3 -
+/puzzles/view/43588 1 -
+/puzzles/view/44702 1 -
+/sites/default/files/imagecache/For_Gallery/IMG_2201.JPG 1 -
+/ckeditor_assets/pictures/12/thumb_vsg_large.jpg 6 http://asino.baremont.ru/ckeditor/pictures
+/upload/resize_cache/iblock/895/140_158_1/8952725af6ccad4f637ce010b1aedb90.html 281 http://tomsk.baremont.ru/page/main
+/system/imgs/imgs/000/000/043/small/y45ee.jpg 2 http://baremont.ru/galleries/show
+/puzzles/view/44682 1 -
+/puzzles/view/44654 1 -
+/system/imgs/imgs/000/000/048/small/hety65.jpg 2 http://baremont.ru/galleries/show
+/assets/images/loading_background.png 215 http://tomsk.baremont.ru/page/main
+/plugins/system/shortcodes/assets/images/icon/dark/social/twitter.png 1 -
+/system/imgs/imgs/000/000/046/bigest/3rgh.jpg 1 -
+/ckeditor_assets/pictures/17/content_baremontnik.jpg 4 http://nsk.baremont.ru/page/main
+/gbook.php 1 -
+/about 2 -
+/galleries/js/jquery-1.js 2 http://baremont.ru/galleries/show
+/page/js/jquery.min.html 179 http://tomsk.baremont.ru/page/main
+/portfolio/100_3800.jpg 1 -
+/sites/default/files/imagecache/FOr_Gallery_big/IMG_2598_0.JPG 1 -
+/system/imgs/imgs/000/000/015/bigest/sadf.jpg 1 -
+/sites/default/files/imagecache/FOr_Gallery_big/Andora.JPG 1 -
+/pages/js/gallery.js 1 http://mgsg.baremont.ru/pages/show
+/assets/images/border.png 214 http://tomsk.baremont.ru/page/main
+/fancybox/fancy_shadow_e.html 6 -
+/system/imgs/imgs/000/000/009/bigest/111.jpg 1 -
+/assets/next0000.png 218 http://tomsk.baremont.ru/page/main
+/robots.txt 1 -
+/images/menu/popular2.png 1 -
+/ckeditor_assets/pictures/13/thumb_drop.jpg 6 http://asino.baremont.ru/ckeditor/pictures
+/media/k2/items/cache/910084c4eb3461ee8947cd42bdd4b146_Generic.jpg 1 -
+/plugins/system/shortcodes/assets/images/icon/dark/social/tumblr.png 1 -
+/krai/ 1 http://yandex.ru/yandsearch
+/upload/resize_cache/iblock/70c/140_158_1/70c4fa9e1ceb9256b9c16c8e49d4ebbb.html 285 http://tomsk.baremont.ru/page/main
+/upload/resize_cache/iblock/819/140_158_1/8199a9445bb1395042b24dfb6ba6ac96.png 1 -
+/index.php/ministries/sports-ministry/112 3 -
+/bg_lmenu.gif 53 http://www.baremont.ru/bg_lmenu.gif
+/templates/middle/images/e4ee7858.png 1 -
+/media/k2/items/cache/45e8f4939bc3bd36e4b87ab1e324d227_Generic.jpg 1 -
+/pages/js/droplinemenu.js 1 http://mgsg.baremont.ru/pages/show
+/ckeditor_assets/pictures/14/content_qwerty.gif 14 -
+/system/imgs/imgs/000/000/016/small/serty4.jpg 2 http://baremont.ru/galleries/show
+/puzzles/view/43642 1 -
+/templates/middle/images/84a4f1ee.png 2 -
+/system/imgs/imgs/000/000/018/bigest/ery45.jpg 1 -
+/puzzles/view/44660 1 -
+/vacancies/js/jquery.min.html 9 http://baremont.ru/vacancies/new
+/fancybox/fancy_shadow_se.html 6 -
+/assets/images/loading.gif 214 http://tomsk.baremont.ru/page/main
+/media/k2/items/cache/dc9e231f652301f80ea8e901bd9ec18a_Generic.jpg 1 -
+/nsk/catalog.php 1 -
+/plagins/fancybox/blank.html 33 http://tomsk.baremont.ru/page/main
+/fancybox/fancy_shadow_s.html 6 -
+/templates/middle/images/dc7caaab.png 2 -
+/js/main0000.js 64 http://www.baremont.ru/
+/plugins/system/shortcodes/assets/images/icon/dark/social/delicious.png 1 -
+/media/k2/items/cache/4965657af186b9092c7a96976ffe881c_Generic.jpg 1 -
+/images/news/schetchikvody.jpg 1 -
+/portfolio/100_3789.jpg 1 -
+/plugins/system/shortcodes/assets/images/icon/dark/social/flickr.png 1 -
+/catalog.php 1 -
+/galleries/css/colorbox.css 2 http://baremont.ru/galleries/show
+/fancybox/fancy_shadow_w.html 6 -
+/page/js/main0000.js 178 http://tomsk.baremont.ru/page/main
+/assets/images/controls.png 214 http://tomsk.baremont.ru/page/main
+/images/controls.png 215 http://tomsk.baremont.ru/page/main
+/index.php/church-news/434-2012-05-12-05-03-00 1 -
+/upload/resize_cache/iblock/77a/140_158_1/77acafb8a940da3ea27104da07b46f2e.html 284 http://tomsk.baremont.ru/page/main
+/users/css/droplinetabs.css 10 http://baremont.ru/users/sign_in
+/article/css/droplinetabs.css 11 http://spb.baremont.ru/article/index68ba.html
+/vacancies/js/main0000.js 9 http://baremont.ru/vacancies/new
+/puzzles/view/43575 1 -
+/assets/bg-news.png 217 http://tomsk.baremont.ru/page/main
+/users/css/colorbox.css 13 http://baremont.ru/users/sign_in
+/fancybox/fancy_shadow_ne.html 6 -
+/upload/resize_cache/iblock/819/140_158_1/8199a9445bb1395042b24dfb6ba6ac96.html 290 http://tomsk.baremont.ru/page/main
+/fancybox/fancy_shadow_n.html 6 -
+/puzzles/view/44551 1 -
+/images/engine2.png 1 -
+/galleries/js/jquery.min.html 2 http://baremont.ru/galleries/show
+/users/js/jquery-1.js 12 http://baremont.ru/users/sign_in
+/system/imgs/imgs/000/000/013/small/23qfededd.jpg 2 http://baremont.ru/galleries/show
+/users/js/gallery.js 12 http://baremont.ru/users/sign_in
+/tmn/catalog.php 1 -
+/system/imgs/imgs/000/000/023/bigest/5.jpg 1 -
+/choose 1 http://www.baremont.ru/
+/system/imgs/imgs/000/000/017/bigest/egt5.jpg 1 -
+/assets/leftedge.gif 216 http://tomsk.baremont.ru/page/main
+/puzzles/view/44722 1 -
+/images/demo/sponsor1.png 1 -
+/puzzles/view/44693 1 -
+/plugins/system/shortcodes/assets/images/icon/dark/social/digg.png 1 -
+/users/js/jquery.colorbox.js 13 http://baremont.ru/users/sign_in
+/system/imgs/imgs/000/000/039/small/6.jpg 2 http://baremont.ru/galleries/show
+/sites/default/files/imagecache/For_Gallery/CenterOfStokgolm.jpg 1 -
+/system/imgs/imgs/000/000/008/small/egt5.jpg 2 http://baremont.ru/galleries/show
+/article/js/gallery.js 11 http://spb.baremont.ru/article/index68ba.html
+/system/imgs/imgs/000/000/029/small/ghmnb.jpg 2 http://baremont.ru/galleries/show
+/vacancies/js/gallery.js 8 http://baremont.ru/vacancies/new
+/system/imgs/imgs/000/000/044/small/ywe45.jpg 2 http://baremont.ru/galleries/show
+/system/imgs/imgs/000/000/011/small/123.jpg 2 http://baremont.ru/galleries/show
+/system/imgs/imgs/000/000/006/bigest/2.jpg 1 -
+/portfolio/100_3797.jpg 1 -
+/galleries/css/droplinetabs.css 2 http://baremont.ru/galleries/show
+/portfolio/100_3807.jpg 1 -
+/system/imgs/imgs/000/000/025/small/4rrf.jpg 2 http://baremont.ru/galleries/show
+/puzzles/view/44731 1 -
+/ 1 -
+/templates/middle/images/teplyjpol.jpg 1 -
+/ckeditor_assets/pictures/12/content_vsg_large.jpg 56 http://seversk.baremont.ru/page/main
+/upload/resize_cache/iblock/2a2/140_158_1/2a299687fb2c1b1f2da3065801fd7795.html 291 http://tomsk.baremont.ru/page/main
+/system/imgs/imgs/000/000/035/small/qqqqwwer.jpg 2 http://baremont.ru/galleries/show
+/vacancies/catalog.html 5 -
+/plugins/system/shortcodes/assets/images/icon/dark/social/picasa.png 1 -
+/images/demo/sponsor5.png 1 -
+/vacancies/js/jquery-1.js 8 http://baremont.ru/vacancies/new
+/images/2.png 1 -
+/plagins/fancybox/fancybox.html 33 http://tomsk.baremont.ru/page/main
+/tsk/catalog.php 1 -
+/index.php/ministries/service-order/82 3 -
+/puzzles/view/44599 1 -
+/plugins/system/shortcodes/assets/images/icon/dark/social/skype.png 1 -
+/templates/middle/images/fd6f3066.png 1 -
+/sites/default/files/imagecache/FOr_Gallery_big/Tunis.jpg 1 -
+/system/imgs/imgs/000/000/033/small/54ytr.jpg 2 http://baremont.ru/galleries/show
+/upload/resize_cache/iblock/979/140_158_1/979a1bae513bc652abbaa2d006ed59de.png 1 -
+/system/imgs/imgs/000/000/026/small/4y5r.jpg 2 http://baremont.ru/galleries/show
+/templates/middle/images/c7501d61.png 2 -
+/index.php/ministries/mother-to-pray/94 3 -
+/sites/default/files/imagecache/For_Gallery/IMG_2476_0.JPG 1 -
+/price 1 -
+/lusv/ 1 -
+/images/demo/post.png 1 -
+/images/demo/img-position6-bn.png 1 -
+/plugins/system/shortcodes/assets/images/icon/dark/social/youtube.png 1 -
+/system/imgs/imgs/000/000/021/small/3e3.jpg 2 http://baremont.ru/galleries/show
+/article/js/main0000.js 11 http://spb.baremont.ru/article/index68ba.html
+/vacancies/js/droplinemenu.js 6 http://baremont.ru/vacancies/new
+/upload/resize_cache/iblock/2a2/140_158_1/2a299687fb2c1b1f2da3065801fd7795.png 1 -
+/ekb/images/news/schetchikvody.jpg 1 -
+/puzzles/view/44637 1 -
+/vacancies/order.html 12 http://omsk.baremont.ru/vacancies/new
+/system/imgs/imgs/000/000/007/small/34444444.jpg 2 http://baremont.ru/galleries/show
+/plugins/system/shortcodes/assets/images/icon/dark/social/lastfm.png 1 -
+/system/imgs/imgs/000/000/041/small/wey54t.jpg 2 http://baremont.ru/galleries/show
+/templates/middle/images/name0000.png 1 -
+/page/css/colorbox.css 182 http://tomsk.baremont.ru/page/main
+/system/imgs/imgs/000/000/015/small/sadf.jpg 2 http://baremont.ru/galleries/show
+/index.php/ministries/mother-to-pray/122 3 -
+/pages/js/jquery.colorbox.js 1 http://mgsg.baremont.ru/pages/show
+/portfolio/100_3825.jpg 1 -
+/ckeditor_assets/pictures/13/content_drop.jpg 25 -
+/index.php/church-news/451--q-q 1 -
+/images/style-ie.css 8 http://ba-remont.ru/
+/puzzles/view/44726 1 -
+/js/jquery.min.html 65 http://www.baremont.ru/
+/vacancies/css/colorbox.css 8 http://baremont.ru/vacancies/new
+/article/js/jquery.colorbox.js 12 http://spb.baremont.ru/article/index68ba.html
+/system/imgs/imgs/000/000/042/small/y5t.jpg 2 http://baremont.ru/galleries/show
+/ckeditor_assets/attachments/22/omsk.flvf 1 http://omsk.baremont.ru/page/main
+/article/js/jquery.min.html 12 http://spb.baremont.ru/article/index68ba.html
+/images/overlay.png 111 http://tomsk.baremont.ru/page/main
+/media/k2/items/cache/ee842e3019fee30e4ca87cc93974d54b_Generic.jpg 1 -
+/puzzles/view/43578 1 -
+/images/demo/sponsor3.png 1 -
+/puzzles/view/44588 1 -
+/order.html 15 http://tomsk.ba-remont.ru/news
+/themes/bartik/logo.png 1 -
+/upload/resize_cache/iblock/f89/140_158_1/f89cdac46830df3a5276ac078f88eb21.html 278 http://tomsk.baremont.ru/page/main
+/node/14 1 -
+/pages/css/colorbox.css 1 http://mgsg.baremont.ru/pages/show
+/plugins/system/shortcodes/assets/images/icon/dark/social/deviantart.png 1 -
+/system/imgs/imgs/000/000/018/small/ery45.jpg 2 http://baremont.ru/galleries/show
+/media/k2/items/cache/f60a47f7792630a3a86bc14c0657e89c_Generic.jpg 1 -
+/puzzles/view/43626 1 -
+/puzzles/view/44704 1 -
+/templates/middle/images/254d1c64.png 2 -
+/puzzles/view/44688 1 -
+/sites/default/files/imagecache/FOr_Gallery_big/IMG_2487.JPG 1 -
+/nkk/ 1 http://www.google.ru/url
+/plagins/fancybox/fancybox-y.html 25 http://tomsk.baremont.ru/page/main
+/portfolio/100_3788.jpg 1 -
+/page/js/jquery-1.js 177 http://tomsk.baremont.ru/page/main
+/images/demo/img-position6-bg.png 1 -
+/sites/default/files/imagecache/FOr_Gallery_big/Nijni_novgorod.JPG 1 -
+/assets/separato.gif 216 http://tomsk.baremont.ru/page/main
+/system/imgs/imgs/000/000/045/small/1q2w3e.jpg 2 http://baremont.ru/galleries/show
+/article/js/droplinemenu.js 11 http://spb.baremont.ru/article/index68ba.html
+/templates/middle/images/a6090784.png 1 -
+/sitemap.xml 3 -
+/user 1 -
+/js/droplinemenu.js 55 http://www.baremont.ru/
+/system/imgs/imgs/000/000/027/small/10.jpg 2 http://baremont.ru/galleries/show
+/media/k2/items/cache/077ab55046ce80eaf9a3ddea999597ca_Generic.jpg 1 -
+/users/js/jquery.min.html 13 http://baremont.ru/users/sign_in
+/users/bg_lmenu.gif 10 http://baremont.ru/users/bg_lmenu.gif
+/images/demo/img-position3.png 1 -
+/puzzles/view/44644 1 -
+/puzzles/view/44631 1 -
+/system/imgs/imgs/000/000/023/small/5.jpg 2 http://baremont.ru/galleries/show
+/sites/default/files/imagecache/FOr_Gallery_big/IMG_2601.JPG 1 -
+/system/imgs/imgs/000/000/010/small/222www.jpg 2 http://baremont.ru/galleries/show
+/page/js/jquery.colorbox.js 188 http://tomsk.baremont.ru/page/main
+/system/imgs/imgs/000/000/019/small/eeefhg.jpg 2 http://baremont.ru/galleries/show
+/templates/middle/images/a8494f19.png 1 -
+/assets/prev0000.png 217 http://tomsk.baremont.ru/page/main
+/vacancies/gbook.html 9 -
+/system/imgs/imgs/000/000/037/bigest/%D1%8B%D0%B2%D0%B0.jpg 1 -
+/puzzles/view/44700 1 -
+/system/imgs/imgs/000/000/024/small/3qfe.jpg 2 http://baremont.ru/galleries/show
+/system/imgs/imgs/000/000/037/small/%D1%8B%D0%B2%D0%B0.jpg 2 http://baremont.ru/galleries/show
+/kafel.php 1 -
+/catalog.html 19 http://www.ba-remont.ru/catalog.html
+/media/k2/items/cache/8da476f72f06a276b1f930cdb28c21f1_Generic.jpg 1 -
+/upload/resize_cache/iblock/39f/140_158_1/39fcccfe499e68e647011514c638092e.png 2 -
+/system/imgs/imgs/000/000/038/small/5try.jpg 2 http://baremont.ru/galleries/show
+/price.xls 19 -
+/system/imgs/imgs/000/000/009/small/111.jpg 2 http://baremont.ru/galleries/show
+/ckeditor_assets/pictures/16/thumb_vodomers.jpg 6 http://asino.baremont.ru/ckeditor/pictures
+/ckeditor_assets/pictures/17/thumb_baremontnik.jpg 6 http://asino.baremont.ru/ckeditor/pictures
+/system/imgs/imgs/000/000/046/small/3rgh.jpg 3 http://baremont.ru/galleries/show
+/sites/default/files/imagecache/for_best_offers/666_0.jpg 1 -
+/js/gallery.js 62 http://www.baremont.ru/
+/media/k2/items/cache/52ec984cc72302fd412e2aa145a6526c_Generic.jpg 1 -
+/vacancies/css/droplinetabs.css 6 http://baremont.ru/vacancies/new
+/vacancies/bg_lmenu.gif 5 http://baremont.ru/vacancies/new
+/plugins/system/shortcodes/assets/images/icon/dark/social/rss.png 1 -
+/upload/resize_cache/iblock/979/140_158_1/979a1bae513bc652abbaa2d006ed59de.html 281 http://tomsk.baremont.ru/page/main
+/images/menu/popular1.png 1 -
+/pages/js/jquery-1.js 1 http://mgsg.baremont.ru/pages/show
+/templates/default/images/bg_news1.gif 12 http://www.ba-remont.ru/assets/style.css
+/sites/default/files/imagecache/For_Gallery/IMG_3096.JPG 1 -
+/index68ba.html 2 http://www.ba-remont.ru/
+/galleries/bg_lmenu.gif 2 http://baremont.ru/galleries/show
+/images/demo/img16.png 1 -
+/media/k2/items/cache/47e29f9fe96a1771642fb05ac8a8fd00_Generic.jpg 1 -
+/images/demo/sponsor4.png 1 -
+/fancybox/fancy_shadow_nw.html 6 -
+/page/js/droplinemenu.js 148 http://tomsk.baremont.ru/page/main
+/js/jquery-1.js 56 http://www.baremont.ru/
+/system/imgs/imgs/000/000/006/small/2.jpg 2 http://baremont.ru/galleries/show
+/templates/middle/images/57a209f7.png 3 -
+/system/imgs/imgs/000/000/031/small/w5y4w5.jpg 2 http://baremont.ru/galleries/show
+/ckeditor_assets/pictures/14/thumb_qwerty.gif 6 http://asino.baremont.ru/ckeditor/pictures
+/system/imgs/imgs/000/000/010/bigest/222www.jpg 1 -
+/users/js/droplinemenu.js 10 http://baremont.ru/users/sign_in
+/media/k2/items/cache/4ab4b6df96c060fa741e97b50eafb07c_Generic.jpg 1 -
+/css/droplinetabs.css 55 http://www.baremont.ru/
+/omsk/ 1 http://yandex.ru/yandsearch
+/images/demo/img-position4.png 1 -
+/pages/css/droplinetabs.css 1 http://mgsg.baremont.ru/pages/show
+/gbook.html 14 -
+/ckeditor_assets/pictures/15/thumb_vodonagrev.jpg 6 http://asino.baremont.ru/ckeditor/pictures
+/ckeditor_assets/pictures/15/content_vodonagrev.jpg 14 -
+/templates/middle/images/icopho.gif 3 -
+/puzzles/view/445 1 -
+/system/imgs/imgs/000/000/032/small/4e5yrt.jpg 2 http://baremont.ru/galleries/show
+/puzzles/view/44608 1 -
+/puzzles/view/44487 1 -
+/vacancies/price.xls 9 -
+/upload/resize_cache/iblock/0aa/140_158_1/0aa7478b13c92d6d776bf6ecab62f7d8.html 295 http://tomsk.baremont.ru/page/main
+/system/imgs/imgs/000/000/017/small/egt5.jpg 2 http://baremont.ru/galleries/show
+/vaknsii.html 1 -
+/article/js/jquery-1.js 11 http://spb.baremont.ru/article/index68ba.html
+/puzzles/view/44657 1 -
+/index.php/ministries/a-wonderful-time/98 2 -
+/page/css/droplinetabs.css 152 http://tomsk.baremont.ru/page/main
+/sites/default/files/imagecache/FOr_Gallery_big/IMG_4282.jpg 1 -
+/images/demo/img-position6-bh.png 1 -
+/portfolio/100_3808.jpg 1 -
+/plugins/system/shortcodes/assets/images/icon/dark/social/vimeo.png 1 -
+/js/jquery.colorbox.js 65 http://www.baremont.ru/
+/media/k2/items/cache/675d28c04794e3c683f4419536c4c15f_Generic.jpg 1 -
+/galleries/js/main0000.js 2 http://baremont.ru/galleries/show
+/system/imgs/imgs/000/000/012/small/12qwe12.jpg 2 http://baremont.ru/galleries/show
+/system/imgs/imgs/000/000/040/small/getImage.jpg 2 http://baremont.ru/galleries/show
+/galleries/js/jquery.colorbox.js 2 http://baremont.ru/galleries/show
+/media/k2/items/cache/7a6fe08027b80ee08bda1ed60d73e334_Generic.jpg 1 -
+/index.php 7 -
+/pages/bg_lmenu.gif 1 http://mgsg.baremont.ru/pages/show
+END_SIDER_404
